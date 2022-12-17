@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: cornflowerblue;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 15px 100px;
+}
+header .mylogo{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+header .navbar-elements{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:  10px 0;
+    
+}
+header .navbar-elements li{
+    list-style: none;
+    margin: 0 10px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+header .navbar-elements li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
